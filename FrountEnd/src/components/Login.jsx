@@ -44,10 +44,10 @@ export default function Login() {
     <div className="container-fluid pt-5">
       <p className="h1 font-italic text-center">PRESIDIO TASK</p>
       <div className="row d-flex align-items-center">
-        <div className="col-6 align-self-center">
+        <div className="col-md-6 align-self-center col-12">
           <img src={bgimage} alt="Background" className="img-fluid" />
         </div>
-        <div className="col-6">
+        <div className="col-md-6 col-12">
           <div className="d-flex justify-content-center">
             <div className="col-10 align-self-center">
               <p className="h3 font-italic text-primary text-center">Login </p>
