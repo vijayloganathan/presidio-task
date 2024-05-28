@@ -9,7 +9,8 @@ function App() {
   return (
     <div
       style={{
-        height: "100vh",
+        minHeight: "100vh",
+        height: "100%",
         backgroundColor: "rgb(60, 60, 60)",
         color: "white",
       }}
