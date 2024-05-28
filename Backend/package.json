@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "buils": "npm i"
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
