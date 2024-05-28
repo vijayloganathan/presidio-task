@@ -27,7 +27,7 @@ export default function Register() {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:8000/Create", values)
+      .post("https://presidio-task-1.onrender.com/Create", values)
       .then((res) => {
         alert("Registered Successfully");
         setValues({

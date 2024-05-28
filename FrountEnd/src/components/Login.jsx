@@ -20,7 +20,7 @@ export default function Login() {
     event.preventDefault();
 
     axios
-      .post("http://localhost:8000/login", values)
+      .post("https://presidio-task-1.onrender.com/login", values)
       .then((res) => {
         const data = res.data.user;
         if (data == "Buyer") {
